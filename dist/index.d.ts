@@ -1,0 +1,40 @@
+declare type Config = {
+    rootDirname?: string;
+    i18nFilename?: string;
+    menubar?: boolean;
+    openDevTools?: boolean;
+    dev?: {
+        port?: number;
+        i18nFilename?: string;
+        menubar?: boolean;
+        openDevTools?: boolean;
+    };
+    width?: number;
+    height?: number;
+    minWidth?: number;
+    minHeight?: number;
+    maxWidth?: number;
+    maxHeight?: number;
+    resizable?: boolean;
+    useContentSize?: boolean;
+    fullscreen?: boolean;
+    fullscreenable?: boolean;
+    minimizable?: boolean;
+    maximizable?: boolean;
+    closable?: boolean;
+    position?: {
+        x: number;
+        y: number;
+    } | "center" | "left-top" | "right-bottom";
+    movable?: boolean;
+    opacity?: number;
+    focusable?: boolean;
+    alwaysOnTop?: boolean;
+    skipTaskbar?: boolean;
+    title?: string;
+    frame?: boolean;
+    hasShadow?: boolean;
+    theme?: string;
+};
+declare const execute: (config?: Config | undefined) => void;
+export default execute;

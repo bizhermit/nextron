@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.useNextron=void 0;const nextronAccessor=()=>global.nextron;exports.default=nextronAccessor;const useNextron=()=>nextronAccessor();exports.useNextron=useNextron;

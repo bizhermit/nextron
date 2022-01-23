@@ -1,0 +1,258 @@
+├─ @bizhermit/basic-utils@1.0.0
+│  ├─ licenses: MIT
+│  ├─ publisher: Ryoichi Senda
+│  ├─ email: rsenda@bizhermit.com
+│  ├─ url: https://bizhermit.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\@bizhermit\basic-utils
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\@bizhermit\basic-utils\LICENSE
+├─ @bizhermit/next-absorber@1.0.0
+│  ├─ licenses: MIT
+│  ├─ publisher: Ryoichi Senda
+│  ├─ email: rsenda@bizhermit.com
+│  ├─ url: https://bizhermit.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\@bizhermit\next-absorber
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\@bizhermit\next-absorber\LICENSE
+├─ @bizhermit/nextron@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/bizhermit/nextron
+│  ├─ publisher: Ryoichi Senda
+│  ├─ email: rsenda@bizhermit.com
+│  ├─ url: https://bizhermit.com
+│  ├─ path: E:\bizhermit\npm\nextron
+│  └─ licenseFile: E:\bizhermit\npm\nextron\LICENSE
+├─ ajv-formats@2.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ajv-validator/ajv-formats
+│  ├─ publisher: Evgeny Poberezkin
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\ajv-formats
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\ajv-formats\LICENSE
+├─ ajv@8.8.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ajv-validator/ajv
+│  ├─ publisher: Evgeny Poberezkin
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\ajv
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\ajv\LICENSE
+├─ app-root-path@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/inxilpro/node-app-root-path
+│  ├─ publisher: Chris Morrell
+│  ├─ email: http://cmorrell.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\app-root-path
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\app-root-path\LICENSE
+├─ atomically@1.7.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/fabiospampinato/atomically
+│  ├─ publisher: Fabio Spampinato
+│  ├─ email: spampinabio@gmail.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\atomically
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\atomically\LICENSE
+├─ conf@10.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/conf
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\conf
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\conf\license
+├─ debounce-fn@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/debounce-fn
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\debounce-fn
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\debounce-fn\license
+├─ dot-prop@6.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/dot-prop
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\dot-prop
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\dot-prop\license
+├─ electron-is-dev@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/electron-is-dev
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\electron-is-dev
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\electron-is-dev\license
+├─ electron-next@3.1.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/leo/electron-next
+│  ├─ publisher: leo
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\electron-next
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\electron-next\license.md
+├─ electron-store@8.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/electron-store
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\electron-store
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\electron-store\license
+├─ env-paths@2.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/env-paths
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\env-paths
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\env-paths\license
+├─ fast-deep-equal@3.1.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/epoberezkin/fast-deep-equal
+│  ├─ publisher: Evgeny Poberezkin
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\fast-deep-equal
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\fast-deep-equal\LICENSE
+├─ find-up@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/find-up
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\find-up
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\find-up\license
+├─ is-obj@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-obj
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\is-obj
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\is-obj\license
+├─ json-schema-traverse@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/epoberezkin/json-schema-traverse
+│  ├─ publisher: Evgeny Poberezkin
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\json-schema-traverse
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\json-schema-traverse\LICENSE
+├─ json-schema-typed@7.0.3
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/typeslick/json-schema-typed
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\json-schema-typed
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\json-schema-typed\LICENSE
+├─ locate-path@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/locate-path
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\locate-path
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\locate-path\license
+├─ lru-cache@6.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-lru-cache
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\lru-cache
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\lru-cache\LICENSE
+├─ mimic-fn@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/mimic-fn
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\onetime\node_modules\mimic-fn
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\onetime\node_modules\mimic-fn\license
+├─ mimic-fn@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/mimic-fn
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\mimic-fn
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\mimic-fn\license
+├─ onetime@5.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/onetime
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\onetime
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\onetime\license
+├─ p-limit@2.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/p-limit
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\p-limit
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\p-limit\license
+├─ p-locate@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/p-locate
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\p-locate
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\p-locate\license
+├─ p-try@2.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/p-try
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\p-try
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\p-try\license
+├─ path-exists@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/path-exists
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\path-exists
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\path-exists\license
+├─ pkg-up@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/pkg-up
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\pkg-up
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\pkg-up\license
+├─ punycode@2.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/bestiejs/punycode.js
+│  ├─ publisher: Mathias Bynens
+│  ├─ url: https://mathiasbynens.be/
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\punycode
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\punycode\LICENSE-MIT.txt
+├─ require-from-string@2.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/floatdrop/require-from-string
+│  ├─ publisher: Vsevolod Strukchinsky
+│  ├─ email: floatdrop@gmail.com
+│  ├─ url: github.com/floatdrop
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\require-from-string
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\require-from-string\license
+├─ semver@7.3.5
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/node-semver
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\conf\node_modules\semver
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\conf\node_modules\semver\LICENSE
+├─ type-fest@1.4.0
+│  ├─ licenses: (MIT OR CC0-1.0)
+│  ├─ repository: https://github.com/sindresorhus/type-fest
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\type-fest
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\type-fest\license
+├─ uri-js@4.4.1
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/garycourt/uri-js
+│  ├─ publisher: Gary Court
+│  ├─ email: gary.court@gmail.com
+│  ├─ path: E:\bizhermit\npm\nextron\node_modules\uri-js
+│  └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\uri-js\LICENSE
+└─ yallist@4.0.0
+   ├─ licenses: ISC
+   ├─ repository: https://github.com/isaacs/yallist
+   ├─ publisher: Isaac Z. Schlueter
+   ├─ email: i@izs.me
+   ├─ url: http://blog.izs.me/
+   ├─ path: E:\bizhermit\npm\nextron\node_modules\yallist
+   └─ licenseFile: E:\bizhermit\npm\nextron\node_modules\yallist\LICENSE
+
