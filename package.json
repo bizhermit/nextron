@@ -20,7 +20,6 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx rimraf dist && npx license-checker --production > AUTHORS && npx tsc -p src-nextron/tsconfig.dist.json && npx minifier ./dist",
     "postpublish": "git tag && git push origin tags/v%npm_package_version% && node ./imitation"
   },
   "devDependencies": {
