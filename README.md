@@ -15,13 +15,13 @@ pages/apiのハンドラーを、開発時と本番（実行ファイル）時�
 
 import execute from "@bizhermit/nextron";
 
-execute({/* config */});
+execute({/* props */});
 ```
 
 ---
 
 ## 設定値
-executeのconfig（第一引数）に指定できるプロパティの一覧です。
+executeのprops（第一引数）に指定できるプロパティの一覧です。
 
 #### rootDirname?: string
 nextのルートディレクトリ  
@@ -44,108 +44,115 @@ i18nファイルパス
 初期値: 8000
 
 #### dev?.i18nFilename?: string
-開発モード: i18nファイルパス
+開発モード: i18nファイルパス  
 初期値: ./src/i18n.json
 
 #### dev?.menubar?: boolean
-開発モード: メニューバー
+開発モード: メニューバー  
 初期値: true
 
 #### dev?.openDevTools?: boolean
-開発モード: 開発者ツールの起動
+開発モード: 開発者ツールの起動  
 初期値: true
 
 #### width?: number
-ウィンドウの幅
+ウィンドウの幅  
 初期値: 1280
 
 #### height?: number
-ウィンドウサイズの高さ
+ウィンドウサイズの高さ  
 初期値: 720
 
 #### minWidth?: number
-ウィンドウサイズの幅の最小値
+ウィンドウサイズの幅の最小値  
 初期値: 0
 
 #### minHeight?: number
-ウィンドウサイズの高さの最小値
+ウィンドウサイズの高さの最小値  
 初期値: 0
 
 #### maxWidth?: number
-ウィンドウサイズの幅の最大値
+ウィンドウサイズの幅の最大値  
 初期値: null
 
 #### maxHeight?: number
-ウィンドウサイズの高さの最大値
+ウィンドウサイズの高さの最大値  
 初期値: null
 
 #### resizable?: boolean
-ウィンドウのリサイズ可不可
+ウィンドウのリサイズ可不可  
 初期値: true
 
 #### useContentSize?: boolean
-サイズ指定のサイズは、コンテンツのサイズかウィンドウのサイズか（trueでコンテンツ）
+サイズ指定のサイズは、コンテンツのサイズかウィンドウのサイズか（trueでコンテンツ）  
 初期値: false
 
 #### fullscreen?: boolean
-ウィンドウをフルスクリーンモードで起動
+ウィンドウをフルスクリーンモードで起動  
 初期値: false
 
 #### fullscreenable?: boolean
-ウィンドウのフルスクリーンモードを許可
+ウィンドウのフルスクリーンモードを許可  
 初期値: true
 
 #### minimizable?: boolean
-ウィンドウの最小化ボタンを表示する
+ウィンドウの最小化ボタンを表示する  
 初期値: true
 
 #### maximizable?: boolean
-ウィンドウの最大化ボタンを表示する
+ウィンドウの最大化ボタンを表示する  
 初期値: true
 
 #### closable?: boolean
-ウィンドウの閉じるボタンを表示する
+ウィンドウの閉じるボタンを表示する  
 初期値: true
 
 #### position?: { x: number; y: number; } | "center" | "left-top" | "right-bottom"
-ウィンドウの初期表示位置
+ウィンドウの初期表示位置  
 初期値: null（画面中央）
 
 #### movable?: boolean
-ウィンドウの移動を許可
+ウィンドウの移動を許可  
 初期値: true
 
 #### opacity?: number
-ウィンドウの不透明度（0：透明 ～ 1: 不透明）
+ウィンドウの不透明度（0：透明 ～ 1: 不透明）  
 初期値: 1
 
 #### focusable?: boolean
-ウィンドウのフォーカス許可
+ウィンドウのフォーカス許可  
 初期値: true
 
 #### alwaysOnTop?: boolean
-ウィンドウを常に手前に表示する
+ウィンドウを常に手前に表示する  
 初期値: false
 
 #### skipTaskbar?: boolean
-アプリケーションアイコン起動時、タスクバーにアイコンを表示する
+アプリケーションアイコン起動時、タスクバーにアイコンを表示する  
 初期値: false
 
 #### title?: string
-ウィンドウに表示する文字列
+ウィンドウに表示する文字列  
 初期値: null（ブランク表示）
 
 #### frame?: boolean
-ウィンドウのフレームの表示（falseにするとタイトルや閉じるボタン等が非表示になります）
+ウィンドウのフレームの表示（falseにするとタイトルや閉じるボタン等が非表示になります）  
 初期値: true
 
 #### hasShadow?: boolean
-ウィンドウの影
+ウィンドウの影  
 初期値: true
 
-#### theme?: string（"light" | "dark"）
-レイアウトテーマ（任意の文字列：デフォルト実装では"light"と"dark"のみ）
+#### layoutColor?: string（"light" | "dark"）
+レイアウトカラー（任意の文字列：デフォルト実装では"light"と"dark"のみ）  
 初期値: light
+
+#### layoutDesign?: string
+レイアウトデザイン  
+初期値
+
+#### defaultConfig?: Config
+configファイル（resources/config.json）を新規作成する際に初期値として使用されます。
 
 ---
 
@@ -244,12 +251,26 @@ PCに通知します。
 #### setPosition(params: { position: { x: number; y: number; } | "center" | "left-top" | "right-bottom"; animate?: boolean; }) => { x: number; y: number; }
 ウィンドウの表示位置を設定し、表示位置を返します。
 
-#### setTheme(theme: "light" | "dark") => string
-テーマを設定し、設定されたテーマを返します。  
+#### setLayoutColor(theme: "light" | "dark") => Promise<string>
+レイアウトカラーを設定し、設定された値を返します。  
 設定はセッション情報に保持されます。
 
-#### getTheme() => string
-設定されているテーマを返します。
+#### getLayoutColor() => string
+設定されているレイアウトカラーを返します。
+
+#### setLayoutDesign(theme: string) => Promise<string>
+レイアウトデザインを設定し、設定された値を返します。  
+設定はセッション情報に保持されます。
+
+#### getLayoutDesign() => string
+設定されているレイアウトデザインを返します。
+
+#### saveConfig(config: { [key: string]: any }) => Promise<{[key: string]: any}>
+configの値を保存します。
+
+#### <T = { [key: string]: any }>getConfig(key?: string) => T
+configの値を取得します。  
+keyが未指定の場合は全ての値を返します。
 
 #### getSession(key?: string) => any
 セッションに保持されている値を取得します。（ここでのセッションは、アプリケーション起動時に作成され、アプリケーション終了まで保持される連想配列です）  

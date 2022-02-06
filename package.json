@@ -1,6 +1,6 @@
 {
   "name": "@bizhermit/nextron",
-  "version": "1.0.2",
+  "version": "1.1.2",
   "description": "nextjs + electron application",
   "repository": {
     "type": "git",
@@ -10,34 +10,32 @@
     "url": "https://github.com/bizhermit/nextron/issues",
     "email": "support@bizhermit.com"
   },
-  "author": "Ryoichi Senda <rsenda@bizhermit.com> (https://bizhermit.com)",
+  "author": "Senda Ryoichi <rsenda@bizhermit.com> (https://bizhermit.com)",
   "homepage": "https://bizhermit.com",
   "license": "MIT",
   "main": "dist/index.js",
   "bin": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "CREDIT"
   ],
   "scripts": {
-    "postpublish": "git tag && git push origin tags/v%npm_package_version% && node ./imitation"
+    "license": "npx rimraf CREDIT && npx license -o CREDIT --returnError",
+    "build": "npm run license && npx rimraf dist && npx tsc -p src/tsconfig.json && npx minifier ./dist",
+    "prepare": "npm run build && git add -A && git diff --quiet --exit-code --cached || git commit -m \"build v%npm_package_version%\" && git push origin",
+    "postpublish": "git tag && git push origin tags/v%npm_package_version%"
   },
   "devDependencies": {
-    "@bizhermit/minifier": "^1.0.0",
+    "@bizhermit/license": "^1.0.9",
+    "@bizhermit/minifier": "^1.0.4",
     "@types/node": "^16.11.13",
-    "@types/react": "^17.0.37",
-    "@types/rimraf": "^3.0.2",
-    "cpx": "^1.5.0",
-    "electron": "^16.0.5",
-    "electron-builder": "^22.14.5",
-    "license-checker": "^25.0.1",
-    "next": "^12.0.7",
+    "rimraf": "^3.0.2",
     "typescript": "^4.5.4"
   },
   "dependencies": {
-    "@bizhermit/next-absorber": "^1.0.0",
+    "electron": "^17.0.0",
     "electron-is-dev": "^2.0.0",
-    "electron-next": "^3.1.5",
-    "electron-store": "^8.0.1"
+    "electron-next": "^3.1.5"
   },
   "keywords": [
     "bizhermit",
